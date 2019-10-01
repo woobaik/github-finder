@@ -1,9 +1,7 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-import NavBar from "./components/layouts/Navbar";
-import Spinner from "./components/layouts/Spinner";
+import { Footer, NavBar, Spinner } from "./components/layouts";
 import Home from "./components/Home";
-import Footer from "./components/layouts/Footer";
 
 class App extends Component {
   render() {
